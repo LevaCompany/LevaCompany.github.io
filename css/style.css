@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: "Poppins", "Leva Icons", icons, sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-position: 100px 100px 8px;
+    background: #00d3ff;
+    background: -ms-linear-gradient(221deg, #00d3ff 0%, #ff00ac 100%);
+    background: -o-linear-gradient(221deg, #00d3ff 0%, #ff00ac 100%);
+    background: -moz-linear-gradient(221deg, #00d3ff 0%, #ff00ac 100%);
+    background: -webkit-linear-gradient(221deg, #00d3ff 0%, #ff00ac 100%);
+    background: linear-gradient(221deg, #00d3ff 0%, #ff00ac 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00d3ff",endColorstr="#ff00ac",GradientType=1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr="#00d3ff",endColorstr="#ff00ac",GradientType=1)";
+}
+.new{
+    cursor: default;
+    color: red;
+    font-weight: bold;
+}
+.news{
+    margin: 5px;
+    padding: 5px;
+}
